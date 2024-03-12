@@ -21,13 +21,13 @@ This project is a React application bootstrapped with Vite, utilizing JSON-serve
 1.Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/ThomasNine/burmese-recipes-react-rtk-rtkQuery-.git
+git clone https://github.com/ThomasNine/lat-htauk-bay-din-react-rtk-.git
 ```
 
 2.Navigate to the project directory:
 
 ```bash
-cd burmese-recipes-react-rtk-rtkQuery-
+cd lat-htauk-bay-din-react-rtk-/
 ```
 
 3.Install dependencies:
@@ -39,7 +39,7 @@ The installation is complete.
 ### json-version( add no.4 step)
 4.Json-server verion with RTK query
 ```bash
-git checkout 6651e8cbe709d7b747a6d7756662effc30d51ac0
+git checkout 7a53495f663c768f1188b184fdd9df0f2cad9a9c
 ```
 ## Usage
 
@@ -51,7 +51,7 @@ for Json-server run:
 npm run api
 ```
 
-for development-server run:
+### for development-server run:
 ### required for both
 ```bash
 npm run dev
@@ -65,23 +65,29 @@ npm run dev
 
 ## Screenshots
 
-home-page
-![App Screenshot](https://github.com/ThomasNine/burmese-recipes-react-rtk-rtkQuery-/blob/master/public/home-page.png)
+### home-page('/')
+![App Screenshot](https://github.com/ThomasNine/lat-htauk-bay-din-react-rtk-/blob/master/public/home-page.png)
 
-mobile-home-page
-![App Screenshot](https://github.com/ThomasNine/burmese-recipes-react-rtk-rtkQuery-/blob/master/public/mobile-home-page.png)
+### mobile-home-page
+![App Screenshot](https://github.com/ThomasNine/lat-htauk-bay-din-react-rtk-/blob/master/public/home-page-mobile.png)
 
-meater-page
-![App Screenshot](https://github.com/ThomasNine/burmese-recipes-react-rtk-rtkQuery-/blob/master/public/meat-page.png)
+### answer-page('/answer')
+![App Screenshot](https://github.com/ThomasNine/lat-htauk-bay-din-react-rtk-/blob/master/public/answer-page.png)
 
-detail-page
-![App Screenshot](https://github.com/ThomasNine/burmese-recipes-react-rtk-rtkQuery-/blob/master/public/detail-page.png)
+### answer-page-mobile('/answer')
+![App Screenshot](https://github.com/ThomasNine/lat-htauk-bay-din-react-rtk-/blob/master/public/answer-page-mobile.png)
 
-mobile-detail-page
-![App Screenshot](https://github.com/ThomasNine/burmese-recipes-react-rtk-rtkQuery-/blob/master/public/mobile-detail-page.png)
+### each-answer-page('/answer)
+![App Screenshot](https://github.com/ThomasNine/lat-htauk-bay-din-react-rtk-/blob/master/public/each-answer.png)
 
-searched-page
-![App Screenshot](https://github.com/ThomasNine/burmese-recipes-react-rtk-rtkQuery-/blob/master/public/searched-page.png)
+### search-suggestion
+![App Screenshot](https://github.com/ThomasNine/lat-htauk-bay-din-react-rtk-/blob/master/public/search-suggestion.png)
 
-404error-page
-![App Screenshot](https://github.com/ThomasNine/burmese-recipes-react-rtk-rtkQuery-/blob/master/public/404page.png)
+### search-suggestioin-mobile
+![App Screenshot](https://github.com/ThomasNine/lat-htauk-bay-din-react-rtk-/blob/master/public/search-suggestion-mobile.png)
+
+### search-page('/search')
+![App Screenshot](https://github.com/ThomasNine/lat-htauk-bay-din-react-rtk-/blob/master/public/search-page.png)
+
+### not-found-page
+![App Screenshot](https://github.com/ThomasNine/lat-htauk-bay-din-react-rtk-/blob/master/public/not-found-page.png)
