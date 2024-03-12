@@ -1,13 +1,22 @@
-# Burmese Recipe Project With Json-server
+# Lat Htauk Bay Dan App With Json-server
 
-This project is a React application bootstrapped with Vite, utilizing JSON-server for mock API development. It serves as a quick setup for frontend development with a mock backend. This project idea was inspired by [https://github.com/sannlynnhtun-coding/Burmese-Recipes].
+This project is a React application bootstrapped with Vite, utilizing JSON-server for mock API development. It serves as a quick setup for frontend development with a mock backend. This project idea was inspired by [https://github.com/sannlynnhtun-coding/MinTheinKha-LatHtaukBayDin].
+## Features
 
-## Prerequisites
+### Dark Mode
+- Toggle between light and dark mode to suit your preference.
+- Enjoy a visually appealing interface that adapts to your chosen mode.
+  
+### Search with Suggestions
+- Search functionality with auto-suggestions to enhance user experience.
+- Efficiently find what you're looking for with intelligent search suggestions.
 
-Before running this project, ensure you have Node.js and npm installed on your machine.
+### Responsive Design
+- Built with responsive design principles to ensure optimal viewing experience across devices.
+- Seamlessly access and interact with the app on desktops, tablets, and mobile devices.
 
 ## Installation(
-### non-json-sever version)
+### non-json-sever version
 
 1.Clone the repository to your local machine:
 
@@ -26,8 +35,9 @@ cd burmese-recipes-react-rtk-rtkQuery-
 ```bash
 npm install
 ```
+The installation is complete.
+### json-version( add no.4 step)
 4.Json-server verion with RTK query
-### (Optional)
 ```bash
 git checkout 6651e8cbe709d7b747a6d7756662effc30d51ac0
 ```
@@ -42,14 +52,14 @@ npm run api
 ```
 
 for development-server run:
-
+### required for both
 ```bash
 npm run dev
 ```
 
 ## Tech Stack
 
-**Client:** React, Redux Toolkit, TailwindCSS, NextUi, Shadcn/ui and Framer-Motion
+**Client:** React, Redux Toolkit, TailwindCSS, Shadcn/ui and Framer-Motion(page-changes animation)
 
 **Server:** Json-server
 
