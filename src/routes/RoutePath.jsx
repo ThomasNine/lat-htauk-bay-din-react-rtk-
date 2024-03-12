@@ -8,8 +8,7 @@ const RoutePath = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/questions/:id" element={<AnswerPage />} />
-        <Route path="/:result" element={<SearchResultPage />} />
-        {/* <Route path="/result/:search_keywords" element={<SearchResultPage />} /> */}
+        <Route path="/search" element={<SearchResultPage />} />
       </Routes>
     </AnimatePresence>
   );

@@ -5,6 +5,7 @@ import DataList from "../components/DataList";
 import GoToTopBtn from "../components/GoToTopBtn";
 import { Button } from "../components/ui/button";
 import { DataListLoading } from "../components/DataListLoading";
+
 const HomePage = () => {
   const [endData, setEndData] = useState(15);
 
